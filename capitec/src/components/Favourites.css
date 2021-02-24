@@ -1,11 +1,11 @@
 .favourites_wrapper{
-    padding:0px 0px 15px 15px;
+    display:grid;
+    padding: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
 .favourite_item{
-    width: 46% !important;
-    height: 100px !important;
-    margin: 12px 12px 0px 0px;
-    box-sizing: content-box;
+    margin: 0;
 }
 
 
