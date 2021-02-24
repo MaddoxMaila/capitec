@@ -20,5 +20,13 @@
     right: 5px;
 
 }
-.menu_icon{
+#remote_pin{
+    border-style: none;
+    
 }
+#remote_pin:focus{
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
