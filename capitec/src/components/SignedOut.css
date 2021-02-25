@@ -20,6 +20,9 @@
     right: 5px;
 
 }
+.remote_pin{
+    padding-bottom: 0;
+}
 #remote_pin{
     border-style: none;
     
@@ -29,4 +32,8 @@
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-
+.lock_box{
+    width:48px !important;
+    position:relative;
+    top: 20px;
+}
