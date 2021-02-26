@@ -1,0 +1,29 @@
+.plans{
+    padding-left:15px;
+    padding-right:15px;
+}
+.card{
+    border-radius: 5px;
+}
+.plan_content{
+    padding-right: 0px;
+    padding-left: 0px;
+    display:grid;
+    grid-template-columns: 1fr 11fr;
+    grid-column-gap: 5px;
+    height:65px;
+    margin: 0 !important;
+    padding:0 !important;
+
+}
+.plan_card{
+    padding: 0 !important;
+}
+.plan_icon_box{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding:20px;
+}
+.plan_name{
+    font-weight: bold;
+}

@@ -1,4 +1,4 @@
-import "./Favourites.css";
+import "./css/Favourites.css";
 import prepaid from "./assets/buy_prepaid_mobile_icon.svg";
 import send from "./assets/send_cash.svg";
 import track from "./assets/track_money.svg";

@@ -1,6 +1,6 @@
 import Favourites from "./Favourites";
 import Footer from "./Footer";
-import "./SignedOut.css";
+import "./css/SignedOut.css";
 import menu from "./assets/menu.svg";
 import lock from "./assets/remote_pin_lock.svg";
 

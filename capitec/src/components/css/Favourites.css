@@ -1,6 +1,7 @@
 .favourites_wrapper{
     display:grid;
     padding: 15px;
+    padding-top: 0px;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
 }
@@ -13,5 +14,7 @@
     left:50%;
     transform:translateX(-50%);
 }
-
+.favourite_item:hover{
+    background-color: whitesmoke;
+}
 

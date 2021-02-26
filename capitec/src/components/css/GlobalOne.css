@@ -1,0 +1,45 @@
+nav{
+    background: linear-gradient(to right,rgb(15, 1, 94),rgb(2, 64, 180),rgb(0, 159, 180));
+    padding-left: 10px ;
+    padding-right: 10px;
+}
+.titles{
+    display:block;
+    padding: 15px 15px 15px 15px;
+    font-weight:bold;
+}
+.bottom_navigation{
+    display:flex;
+    justify-content: space-evenly;
+    position:fixed;
+    top:90vh;
+    height:150px;
+    width:100%;
+}
+.savings_card_content{
+    padding-right: 0px;
+    padding-left: 0px;
+    display:grid;
+    grid-template-columns: 1fr 8fr;
+    grid-column-gap: 5px;
+    height:65px;
+    margin: 0 !important;
+    padding:0 !important;
+
+}
+
+.savings_account{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.savings_icon_box{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding:20px;
+}
+.name_box{
+    padding:20px;
+}
+.savings_name{
+    font-weight:bold;
+}
