@@ -8,19 +8,12 @@ nav{
     padding: 15px 15px 15px 15px;
     font-weight:bold;
 }
-.bottom_navigation{
-    display:flex;
-    justify-content: space-evenly;
-    position:fixed;
-    top:90vh;
-    height:150px;
-    width:100%;
-}
+
 .savings_card_content{
     padding-right: 0px;
     padding-left: 0px;
     display:grid;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 1fr 11fr;
     grid-column-gap: 5px;
     height:65px;
     margin: 0 !important;
@@ -35,11 +28,34 @@ nav{
 .savings_icon_box{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    padding:20px;
+    
+    padding:5px;
+}
+.savings_icon_box img{
+    top: 50%;
+    transform:translateY(-50%);
+    position: relative;
 }
 .name_box{
-    padding:20px;
+    padding: 20px;
 }
 .savings_name{
     font-weight:bold;
+}
+
+.bottom_navigation{
+    display:flex;
+    justify-content: space-between;
+    position:fixed;
+    top:90vh;
+    height:15%;
+    width:100%;
+    padding: 15px;
+}
+.navigation_icon_box{
+    width: 30px;
+    height:30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }

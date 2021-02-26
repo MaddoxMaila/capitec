@@ -1,4 +1,5 @@
 import "./css/Plans.css"
+import planIcon from "./assets/plan_white.svg";
 const Plans = () => {
     const plans = [
         {
@@ -27,7 +28,7 @@ const Plans = () => {
                 <div className="card s12 plan_card" >
                     <div className="card-content plan_content">
                         <div className="plan_icon_box blue darken-4">
-                            icon
+                            <img src={planIcon} alt="plan icon" className="responsive-img"/>
                         </div>
                         <div className="name_box ">
                             <span className="blue-text text-darken-4 plan_name">{ length1 + length2 + length3 } Savings Plan</span>
@@ -47,7 +48,6 @@ const Plans = () => {
             )
         }
     }
-    const flexible =2
     return (
         <div className="plans">
             <div className="row">

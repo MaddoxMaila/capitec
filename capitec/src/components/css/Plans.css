@@ -22,7 +22,12 @@
 .plan_icon_box{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    padding:20px;
+    padding:5px;
+}
+.plan_icon_box img{
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
 }
 .plan_name{
     font-weight: bold;
