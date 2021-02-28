@@ -1,5 +1,6 @@
 import "./css/Plans.css"
 import planIcon from "./assets/plan_white.svg";
+import more_blue from "./assets/more_blue.svg";
 const Plans = () => {
     const plans = [
         {
@@ -31,8 +32,8 @@ const Plans = () => {
                             <img src={planIcon} alt="plan icon" className="responsive-img"/>
                         </div>
                         <div className="name_box ">
-                            <span className="blue-text text-darken-4 plan_name">{ length1 + length2 + length3 } Savings Plan</span>
-                            <span className="right blue-text plan_name">{">"}</span>
+                            <span className="blue-text text-darken-4 plan_name">{ length1 + length2 + length3 } Savings Plans</span>
+                            <img src={more_blue} alt="more" width="5" height="5" className="right responsive-img"/>
                         </div>
                     </div>
                 </div>

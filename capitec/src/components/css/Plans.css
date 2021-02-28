@@ -26,8 +26,11 @@
 }
 .plan_icon_box img{
     position:relative;
-    top:50%;
-    transform: translateY(-50%);
+    top:15%;
+    left: 50%;
+    transform:translateX(-50%);
+    width:40px;
+    height:40px;
 }
 .plan_name{
     font-weight: bold;

@@ -1,3 +1,10 @@
 body{
     background-color: whitesmoke;
+    font-family: "Flama";
+}
+@font-face {
+    font-family: 'Flama';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Flama'), url('./Flama\ Regular.woff') format('woff');
 }
