@@ -4,7 +4,7 @@ import GlobalOne from './components/GlobalOne';
 function App() {
   return (
     <div className="App">
-     {/* <SignedOut/> */}
+     {/*<SignedOut/> */}
       <GlobalOne/>
     </div>
   );

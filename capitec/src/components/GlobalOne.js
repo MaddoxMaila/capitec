@@ -14,6 +14,7 @@ import message_blue from "./assets/message_blue.svg";
 import explore_blue from "./assets/explore_blue.svg";
 import more_blue from "./assets/more_blue.svg";
 import under_thing from "./assets/thing_under.svg";
+import Widgets from "./Widgets";
 
 const GlobalOne = () => {
     return (
@@ -47,6 +48,7 @@ const GlobalOne = () => {
                 </div>
             </div>
             <Plans/>
+            <Widgets/>
             <div className="titles">
                 <span className="grey-text text-darken-2 favourites_title">Favourites</span>
                 <div className="edit valign-wrapper">
