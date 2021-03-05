@@ -2,14 +2,40 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+.widget_card_content{
+    display:grid;
+    grid-template-columns: 1fr 10fr 1fr;
+}
+a{
+    color: grey;
+}
+.widget_name{
+    font-weight: bold;
+}
+.widget_icon_box {
+    position: relative;
+    top: -25%;
+}
+.widget_icon_box img{
+    position: relative;
+    transform: translateY(0%);
+    width: 40px;
+    height: 40px;
+}
+.title_description{
+    display:grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    top: -25%;
+}
 .widget_card{
-    margin: 0;
-    padding:0;
     height: 68px;
 }
-.widget_card_content{
-    position:relative;
-    top: 50%;
-    transform: translateY(-50%);
-
+.widget_more_icon{
+    position: relative;
+    top: -25%;
+}
+.widget_more_icon img{
+    position: relative;
+    top:  25%;
 }
