@@ -1,64 +1,9 @@
-nav{
-    background: linear-gradient(to right,rgb(15, 1, 94),rgb(2, 64, 180),rgb(0, 159, 180));
-    padding-left: 10px ;
-    padding-right: 10px;
-}
+
 .titles{
     display:grid;
     grid-template-columns: 10fr 1fr ;
     padding: 15px 15px 15px 15px;
     font-weight:bold;
-}
-
-.savings_card_content{
-    padding-right: 0px;
-    padding-left: 0px;
-    display:grid;
-    grid-template-columns: 1fr 11fr;
-    grid-column-gap: 5px;
-    height:65px;
-    margin: 0 !important;
-    padding:0 !important;
-
-}
-
-.savings_account{
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 10px;
-}
-.savings_icon_box{
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    padding:5px;
-}
-.savings_icon_box img{
-    top:15%;
-    left: 50%;
-    transform:translateX(-50%);
-    position: relative;
-    width:40px;
-    height:40px;
-}
-.name_box{
-    padding: 20px;
-}
-.savings_name{
-    font-weight:bold;
-}
-span{
-    font-weight:bold;
-    color: grey;
-}
-.name_box img{
-    position:relative;
-    top:50%;
-    transform: translateY(-50%);
-}
-a img{
-    position: relative;
-    top:-60%;
-    transform: translateY(80%);
 }
 
 span, p{
