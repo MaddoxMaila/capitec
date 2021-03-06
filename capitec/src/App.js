@@ -1,12 +1,15 @@
 import './App.css';
 import SignedOut from './components/SignedOut';
 import GlobalOne from './components/GlobalOne';
+import { BrowserRouter as Router } from  "react-router-dom";
 function App() {
   return (
-    <div className="App">
-     {/*<SignedOut/> */}
-      <GlobalOne/>
-    </div>
+    <Router>
+      <div className="App">
+       <GlobalOne/>
+      </div>
+    </Router>
+    
   );
 }
 
