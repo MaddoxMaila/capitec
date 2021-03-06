@@ -1,0 +1,43 @@
+.bottom_navigation{
+    display:grid;
+    grid-template-columns:  4fr 4fr 6fr 4fr 4fr;
+    justify-content: space-between;
+    position:fixed;
+    top:90vh;
+    height:15%;
+    width:100%;
+    padding: 15px;
+    box-shadow: 0 -2px 5px grey;
+}
+
+.navigation_icon_box{
+    width: 30px;
+    height:30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.transact_grey {
+    width: 50px !important;
+    height: 50px !important;
+}
+.transact_grey img{
+    position:relative;
+    top:-20px;
+}
+.transact_button span{
+    position: relative;
+    top:-20px;
+}
+.edit_title{
+    position: relative;
+    left: -15px;
+}
+.under_thing{
+    position: absolute;
+    transform: translateX(-50%);
+    top: -34px;
+    width: 140px;
+    height: 50px !important;
+}

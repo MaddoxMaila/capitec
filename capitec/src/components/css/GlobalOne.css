@@ -5,7 +5,7 @@ nav{
 }
 .titles{
     display:grid;
-    grid-template-columns: 11fr 1fr ;
+    grid-template-columns: 10fr 1fr ;
     padding: 15px 15px 15px 15px;
     font-weight:bold;
 }
@@ -46,40 +46,6 @@ nav{
 .savings_name{
     font-weight:bold;
 }
-
-.bottom_navigation{
-    display:grid;
-    grid-template-columns:  4fr 4fr 6fr 4fr 4fr;
-    justify-content: space-between;
-    position:fixed;
-    top:90vh;
-    height:15%;
-    width:100%;
-    padding: 15px;
-}
-.navigation_icon_box{
-    width: 30px;
-    height:30px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    
-}
-.transact_grey {
-    width: 50px !important;
-    height: 50px !important;
-}
-.transact_grey img{
-    position:relative;
-    top:-20px;
-}
-.transact_button span{
-    position: relative;
-    top:-20px;
-}
-img{
-    color:aqua;
-}
 span{
     font-weight:bold;
     color: grey;
@@ -95,17 +61,17 @@ a img{
     transform: translateY(80%);
 }
 
-.edit_title{
-    position: relative;
-    left: -15px;
-}
-.under_thing{
-    position: absolute;
-    transform: translateX(-50%);
-    top: -34px;
-    width: 140px;
-    height: 50px !important;
-}
 span, p{
     color:grey;
+}
+.edit_title{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    float:right;
+}
+.edit_title img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }

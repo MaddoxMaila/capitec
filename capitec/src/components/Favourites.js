@@ -6,6 +6,7 @@ import beneficiary from "./assets/pay_beneficiary.svg";
 import scan from "./assets/scan_to_pay.svg";
 import electricity from "./assets/buy_electricity.svg";
 import transfer from "./assets/transfer_money.svg"
+import more_blue from "./assets/more_blue.svg";
 const Favourites = () => {
     const favourites = [
         {id:1, name: "Buy prepaid mobile"},
