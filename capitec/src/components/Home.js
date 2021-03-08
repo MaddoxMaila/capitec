@@ -1,7 +1,6 @@
 import Plans from "./Plans";
 import Favourites from "./Favourites";
 import Widgets from "./Widgets";
-import BottomNav from "./BottomNav";
 import more_blue from "./assets/more_blue.svg";
 import HomeTopNav from "./HomeTopNav";
 import HomeAccounts from "./HomeAccounts";
@@ -23,7 +22,6 @@ const Home = () => {
                 </div>
             </div>
             <Favourites/>
-            <BottomNav/>
         </div>
      );
 }
