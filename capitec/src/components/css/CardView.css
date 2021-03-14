@@ -1,0 +1,28 @@
+.card_view_black{
+    padding: 30px 15%;
+}
+.card_black{
+    border-radius: 20px;
+    padding: 5px 10px;
+    border-bottom: 5px rgb(0, 99, 192) solid;
+    border-right: 5px rgb(0, 99, 192) solid;
+}
+.limits_functions{
+    margin: 15px 0;
+    padding:15px 15px;
+}
+.update_limits{
+    padding-bottom: 5px;
+}
+.temporary_limits{
+    padding-top: 5px;
+}
+.limits_heading{
+    padding-left: 15px;
+}
+.tap_to_pay{
+    padding-bottom: 5px;
+}
+.stop_card{
+    padding-top: 5px;
+}
